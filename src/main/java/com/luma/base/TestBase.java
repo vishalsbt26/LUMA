@@ -20,6 +20,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
+
 	// Main Class
 	public TestBase() {
 		prop = new Properties();
@@ -36,6 +37,7 @@ public class TestBase {
 		}
 	}
 
+	// Initializations.
 	public void initialization(String browserName) {
 //		String browserName = prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {
