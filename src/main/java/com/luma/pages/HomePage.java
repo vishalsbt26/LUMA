@@ -37,6 +37,7 @@ public class HomePage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
+	//Actions.
 	public void homePageVerify() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		if (btn1.isDisplayed()) {
