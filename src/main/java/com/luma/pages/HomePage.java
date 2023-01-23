@@ -1,5 +1,6 @@
 package com.luma.pages;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -10,10 +11,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.luma.base.TestBase;
 
 public class HomePage extends TestBase {
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 	private static final Logger logger = LogManager.getLogger(HomePage.class);
 
 	// PageFactory
@@ -37,7 +43,7 @@ public class HomePage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	//Actions.
+	// Actions.
 	public void homePageVerify() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		if (btn1.isDisplayed()) {
@@ -92,10 +98,10 @@ public class HomePage extends TestBase {
 				e.printStackTrace();
 			}
 		}
-		
+
 		// MenuBar Inside Options
-				List<WebElement> list = driver
-						.findElements(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/nav[1]/ul[1]/li[4]/ul[1]/li"));
+		List<WebElement> list = driver
+				.findElements(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/nav[1]/ul[1]/li[4]/ul[1]/li"));
 
 		for (int i = 0; i < list.size(); i++) {
 			String txt = list.get(i).getText();
@@ -105,5 +111,27 @@ public class HomePage extends TestBase {
 			}
 		}
 		logger.info("navigate to product list page");
+	}
+
+	public void sortFilter() {
+		driver.findElement(By.id("sorter")).click();
+		WebElement sort = driver.findElement(By.id("sorter"));
+
+		Select sel = new Select(sort);
+		sel.selectByValue("price");
+		logger.info("sort the item");
+	}
+
+	public void items() {
+		List<WebElement> listItems = driver.findElements(By.xpath("//span[@class='product-image-container']"));
+		for (int i = 0; i < listItems.size(); i++) {
+			String itemName = listItems.get(i).getText();
+
+			if (itemName.equals("Endurance Watch")) {
+//				WebElement itm = driver.findElement(By.xpath("//a[contains(text(),'+itemName+')]"));
+//				js.executeScript("arguments[0].scrollIntoView(true);", itm);
+				
+			}
+		}
 	}
 }
