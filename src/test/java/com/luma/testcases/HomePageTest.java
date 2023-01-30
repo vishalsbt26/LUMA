@@ -29,13 +29,13 @@ public class HomePageTest extends TestBase {
 		homePage = new HomePage();
 		logger.info("setup");
 	}
-	
+
 	@Test
 	public void homePageTest() {
 		homePage.homePageVerify();
 		logger.info("verifying home page");
 	}
-	
+
 	@Test
 	public void listPageTest() {
 		homePage.productList();
@@ -43,10 +43,10 @@ public class HomePageTest extends TestBase {
 		homePage.items();
 		logger.info("product list page");
 	}
-	
-//	@AfterMethod
-//	public void tearDown() {
-//		driver.quit();
-//		logger.info("closing browser");
-//	}
+
+	@AfterMethod
+	public void tearDown() {
+		logger.info("closing browser");
+		driver.quit();
+	}
 }
