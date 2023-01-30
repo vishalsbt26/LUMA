@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -19,7 +20,7 @@ public class LoginPageTest extends TestBase {
 
 	@Parameters("browser")
 	@BeforeTest
-	public void setUp(String browser) {
+	public void setUp(@Optional String browser) {
 		initialization(browser);
 		loginPage = new LoginPage();
 
