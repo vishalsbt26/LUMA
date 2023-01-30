@@ -6,7 +6,9 @@
       <class name="com.luma.testcases.HomePageTest">
         <methods>
           <include name="setup"/>
+          <include name="homePageTest"/>
           <include name="listPageTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.luma.testcases.HomePageTest -->
     </classes>

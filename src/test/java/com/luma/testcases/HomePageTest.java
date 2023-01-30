@@ -38,12 +38,14 @@ public class HomePageTest extends TestBase {
 	@Test
 	public void listPageTest() {
 		homePage.productList();
+		homePage.sortFilter();
+		homePage.items();
 		logger.info("product list page");
 	}
 	
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
-		logger.info("closing browser");
-	}
+//	@AfterMethod
+//	public void tearDown() {
+//		driver.quit();
+//		logger.info("closing browser");
+//	}
 }
