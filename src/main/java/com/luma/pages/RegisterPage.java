@@ -44,9 +44,9 @@ public class RegisterPage extends TestBase {
 		logger.info("navigate to create account");
 	}
 
-	public void fillDetails(String fname, String lname, String email, String password, String cPassword) {
+	public void fillDetails(String fname, String lname, String email, String password, String cPassword) throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-
+		Thread.sleep(2000);
 		fName.sendKeys(fname);
 		lName.sendKeys(lname);
 		emailAddress.sendKeys(email);

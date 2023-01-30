@@ -39,7 +39,8 @@ public class LoginPage extends TestBase {
 		logger.info("navigate to create account");
 	}
 
-	public void loginCred(String user, String pass) {
+	public void loginCred(String user, String pass) throws InterruptedException {
+		Thread.sleep(2000);
 		uName.sendKeys(user);
 		uPwd.sendKeys(pass);
 		loginBtn.click();

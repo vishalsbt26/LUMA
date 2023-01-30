@@ -43,7 +43,7 @@ public class RegisterPageTest extends TestBase {
 	}
 
 	@Test(dataProvider = "excelData")
-	public void fillDetailsTest(String fname, String lname, String email, String password, String cPassword) {
+	public void fillDetailsTest(String fname, String lname, String email, String password, String cPassword) throws InterruptedException {
 		registerPage.fillDetails(fname, lname, email, password, cPassword);
 		logger.info("fill user details");
 	}

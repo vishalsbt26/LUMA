@@ -41,7 +41,7 @@ public class LoginPageTest extends TestBase {
 	}
 	
 	@Test(dataProvider = "excelData")
-	public void loginTest(String user, String pass) {
+	public void loginTest(String user, String pass) throws InterruptedException {
 		loginPage.loginCred(user, pass);
 
 		logger.info("login");
