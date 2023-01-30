@@ -16,7 +16,7 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath = "//body[1]/div[2]/header[1]/div[1]/div[1]/ul[1]/li[2]/a[1]")
 	WebElement signIn;
 
-	@FindBy(xpath = "//input[@id='email']")
+	@FindBy(id = "email")
 	WebElement uName;
 
 	@FindBy(id = "pass")

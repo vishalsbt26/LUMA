@@ -16,7 +16,7 @@ public class RegisterPage extends TestBase {
 	@FindBy(xpath = "//header/div[1]/div[1]/ul[1]/li[3]/a[1]")
 	WebElement createAccount;
 
-	@FindBy(xpath = "//input[@id='firstname']")
+	@FindBy(id = "firstname")
 	WebElement fName;
 
 	@FindBy(id = "lastname")
