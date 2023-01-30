@@ -85,7 +85,7 @@
 
 	<profiles>
 		<profile>
-			<id>login</id>
+			<id>all</id>
 			<build>
 				<pluginManagement>
 					<plugins>
