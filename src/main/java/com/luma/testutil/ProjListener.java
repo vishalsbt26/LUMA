@@ -1,10 +1,5 @@
 package com.luma.testutil;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.luma.base.TestBase;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
@@ -16,8 +11,14 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.luma.base.TestBase;
+
 public class ProjListener extends TestBase implements ITestListener {
 	ExtentTest test;
+//	ExtentReports extent = ProjExtentReport.getReport();
 	ExtentReports extent = ProjExtentReport.getReport();
 
 	@Override
