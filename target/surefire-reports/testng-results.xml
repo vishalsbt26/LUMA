@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-30T09:47:53 IST" name="LumaSuite" finished-at="2023-01-30T09:48:15 IST" duration-ms="21865">
+  <suite started-at="2023-01-30T13:04:06 IST" name="LumaSuite" finished-at="2023-01-30T13:04:16 IST" duration-ms="10517">
     <groups>
     </groups>
-    <test started-at="2023-01-30T09:47:53 IST" name="LoginTest" finished-at="2023-01-30T09:48:15 IST" duration-ms="21865">
+    <test started-at="2023-01-30T13:04:06 IST" name="LoginTest" finished-at="2023-01-30T13:04:16 IST" duration-ms="10517">
       <class name="com.luma.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T09:47:53 IST" name="setUp" finished-at="2023-01-30T09:48:10 IST" duration-ms="17168" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T13:04:06 IST" name="setUp" finished-at="2023-01-30T13:04:12 IST" duration-ms="6130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navTest()[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T09:48:10 IST" name="navTest" finished-at="2023-01-30T09:48:11 IST" duration-ms="1195" status="PASS">
+        <test-method signature="navTest()[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T13:04:12 IST" name="navTest" finished-at="2023-01-30T13:04:13 IST" duration-ms="1197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T09:48:12 IST" name="loginTest" data-provider="excelData" finished-at="2023-01-30T09:48:15 IST" duration-ms="2272" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T13:04:14 IST" name="loginTest" data-provider="excelData" finished-at="2023-01-30T13:04:16 IST" duration-ms="2091" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="verifyLoginTest()[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T09:48:15 IST" name="verifyLoginTest" finished-at="2023-01-30T09:48:15 IST" duration-ms="57" status="PASS">
+        <test-method signature="verifyLoginTest()[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T13:04:16 IST" name="verifyLoginTest" finished-at="2023-01-30T13:04:16 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T09:48:15 IST" name="tearDown" finished-at="2023-01-30T09:48:15 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.luma.testcases.LoginPageTest@2bffa76d]" started-at="2023-01-30T13:04:16 IST" name="tearDown" finished-at="2023-01-30T13:04:16 IST" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

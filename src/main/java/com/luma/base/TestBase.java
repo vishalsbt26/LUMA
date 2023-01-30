@@ -35,10 +35,7 @@ public class TestBase {
 		}
 	}
 
-<<<<<<< HEAD
-=======
 	// Base class for the LUMA Project.
->>>>>>> 7fb597bb92aeb09302c62daa68a58a43f6b58d9d
 	public void initialization(String browserName) {
 //		String browserName = prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {
