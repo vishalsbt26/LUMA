@@ -20,7 +20,7 @@ public class LoginPageTest extends TestBase {
 
 	@Parameters("browser")
 	@BeforeTest
-	public void setUp(@Optional String browser) {
+	public void setUp(@Optional("chrome") String browser) {
 		initialization(browser);
 		loginPage = new LoginPage();
 
