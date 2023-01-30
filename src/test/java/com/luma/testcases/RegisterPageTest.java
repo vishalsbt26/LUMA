@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,7 @@ public class RegisterPageTest extends TestBase {
 
 	@Parameters("browser")
 	@BeforeTest
-	public void setUp(String browser) {
+	public void setUp(@Optional("chrome") String browser) {
 		initialization(browser);
 		registerPage = new RegisterPage();
 		logger.info("setup");
