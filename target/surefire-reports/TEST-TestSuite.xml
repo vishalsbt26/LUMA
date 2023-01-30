@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.397" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.604" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire7350937718031132761\surefirebooter3827382623448386598.jar C:\Users\Asus\AppData\Local\Temp\surefire7350937718031132761 2023-01-30T15-30-44_726-jvmRun1 surefire11054163695065808848tmp surefire_016384871926325449369tmp"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire8886018223308436474\surefirebooter12620187782599723989.jar C:\Users\Asus\AppData\Local\Temp\surefire8886018223308436474 2023-01-30T15-50-00_809-jvmRun1 surefire976025546003493061tmp surefire_06062189414836780856tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Asus\eclipse-workspace\LUMA\target\test-classes;C:\Users\Asus\eclipse-workspace\LUMA\target\classes;C:\Users\Asus\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Asus\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Asus\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Asus\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Asus\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Asus\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Asus\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\Asus\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Asus\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Asus\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Asus\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Asus\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Asus\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\Asus\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Asus\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Asus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Asus\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Asus\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Asus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Asus\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Asus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Asus\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Asus\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Asus\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Asus\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Asus\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Asus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire7350937718031132761\surefirebooter3827382623448386598.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire8886018223308436474\surefirebooter12620187782599723989.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
@@ -61,103 +61,103 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="navTest" classname="com.luma.testcases.LoginPageTest" time="1.275">
-    <system-out><![CDATA[[DEBUG] 2023-01-30 15:30:49.808 [TestNG-tests-1] InternalLoggerFactory - Using Log4J2 as the default logging framework
-[DEBUG] 2023-01-30 15:30:49.818 [TestNG-tests-1] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-[DEBUG] 2023-01-30 15:30:49.818 [TestNG-tests-1] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-[DEBUG] 2023-01-30 15:30:49.822 [TestNG-tests-1] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2a604bbf
-[DEBUG] 2023-01-30 15:30:49.842 [TestNG-tests-1] PlatformDependent0 - -Dio.netty.noUnsafe: false
-[DEBUG] 2023-01-30 15:30:49.852 [TestNG-tests-1] PlatformDependent0 - Java version: 11
-[DEBUG] 2023-01-30 15:30:49.854 [TestNG-tests-1] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-[DEBUG] 2023-01-30 15:30:49.855 [TestNG-tests-1] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-[DEBUG] 2023-01-30 15:30:49.856 [TestNG-tests-1] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-[DEBUG] 2023-01-30 15:30:49.856 [TestNG-tests-1] PlatformDependent0 - java.nio.Buffer.address: available
-[DEBUG] 2023-01-30 15:30:49.857 [TestNG-tests-1] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-[DEBUG] 2023-01-30 15:30:49.858 [TestNG-tests-1] PlatformDependent0 - java.nio.Bits.unaligned: available, true
-[DEBUG] 2023-01-30 15:30:49.859 [TestNG-tests-1] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6deda2cb
-[DEBUG] 2023-01-30 15:30:49.860 [TestNG-tests-1] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[DEBUG] 2023-01-30 15:30:49.860 [TestNG-tests-1] PlatformDependent - sun.misc.Unsafe: available
-[DEBUG] 2023-01-30 15:30:49.861 [TestNG-tests-1] PlatformDependent - maxDirectMemory: 5289017344 bytes (maybe)
-[DEBUG] 2023-01-30 15:30:49.861 [TestNG-tests-1] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Asus\AppData\Local\Temp (java.io.tmpdir)
-[DEBUG] 2023-01-30 15:30:49.861 [TestNG-tests-1] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[DEBUG] 2023-01-30 15:30:49.862 [TestNG-tests-1] PlatformDependent - Platform: Windows
-[DEBUG] 2023-01-30 15:30:49.862 [TestNG-tests-1] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-[DEBUG] 2023-01-30 15:30:49.864 [TestNG-tests-1] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[DEBUG] 2023-01-30 15:30:49.865 [TestNG-tests-1] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-[DEBUG] 2023-01-30 15:30:49.865 [TestNG-tests-1] PlatformDependent - -Dio.netty.noPreferDirect: false
-[DEBUG] 2023-01-30 15:30:49.875 [TestNG-tests-1] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-[DEBUG] 2023-01-30 15:30:49.896 [TestNG-tests-1] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[DEBUG] 2023-01-30 15:30:49.896 [TestNG-tests-1] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[DEBUG] 2023-01-30 15:30:49.918 [TestNG-tests-1] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-[DEBUG] 2023-01-30 15:30:49.919 [TestNG-tests-1] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-[DEBUG] 2023-01-30 15:30:49.950 [TestNG-tests-1] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-[DEBUG] 2023-01-30 15:30:49.960 [TestNG-tests-1] NioEventLoop - -Dio.netty.noKeySetOptimization: false
-[DEBUG] 2023-01-30 15:30:49.960 [TestNG-tests-1] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-[DEBUG] 2023-01-30 15:30:50.033 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-[DEBUG] 2023-01-30 15:30:50.033 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-[DEBUG] 2023-01-30 15:30:50.033 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-[DEBUG] 2023-01-30 15:30:50.034 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-[DEBUG] 2023-01-30 15:30:50.034 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-[DEBUG] 2023-01-30 15:30:50.034 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-[DEBUG] 2023-01-30 15:30:50.034 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-[DEBUG] 2023-01-30 15:30:50.034 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[DEBUG] 2023-01-30 15:30:50.034 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-[DEBUG] 2023-01-30 15:30:50.035 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[DEBUG] 2023-01-30 15:30:50.035 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-[DEBUG] 2023-01-30 15:30:50.035 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[DEBUG] 2023-01-30 15:30:50.045 [TestNG-tests-1] ByteBufUtil - -Dio.netty.allocator.type: pooled
-[DEBUG] 2023-01-30 15:30:50.045 [TestNG-tests-1] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-[DEBUG] 2023-01-30 15:30:50.045 [TestNG-tests-1] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[DEBUG] 2023-01-30 15:30:50.497 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 14532 (auto-detected)
-[DEBUG] 2023-01-30 15:30:50.500 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
-[DEBUG] 2023-01-30 15:30:50.501 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
-[DEBUG] 2023-01-30 15:30:50.881 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-[DEBUG] 2023-01-30 15:30:50.883 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[DEBUG] 2023-01-30 15:30:51.282 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
-[DEBUG] 2023-01-30 15:30:51.332 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-[DEBUG] 2023-01-30 15:30:51.334 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-[DEBUG] 2023-01-30 15:30:51.334 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@fdb5a5e
-[DEBUG] 2023-01-30 15:30:51.357 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-[DEBUG] 2023-01-30 15:30:51.358 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
-[DEBUG] 2023-01-30 15:30:51.358 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
-[DEBUG] 2023-01-30 15:30:51.358 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
-[DEBUG] 2023-01-30 15:30:52.165 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-[DEBUG] 2023-01-30 15:30:52.337 [TestNG-tests-1] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xee991eedb28f78ab
-[INFO ] 2023-01-30 15:30:56.439 [TestNG-tests-1] LoginPageTest - setup
-[INFO ] 2023-01-30 15:30:57.744 [TestNG-tests-1] LoginPage - navigate to create account
-[INFO ] 2023-01-30 15:30:57.744 [TestNG-tests-1] LoginPageTest - navigate to login page
+  <testcase name="navTest" classname="com.luma.testcases.LoginPageTest" time="1.168">
+    <system-out><![CDATA[[DEBUG] 2023-01-30 15:50:05.381 [TestNG-tests-1] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-01-30 15:50:05.392 [TestNG-tests-1] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-01-30 15:50:05.393 [TestNG-tests-1] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-01-30 15:50:05.399 [TestNG-tests-1] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20ab04a4
+[DEBUG] 2023-01-30 15:50:05.418 [TestNG-tests-1] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-01-30 15:50:05.424 [TestNG-tests-1] PlatformDependent0 - Java version: 11
+[DEBUG] 2023-01-30 15:50:05.427 [TestNG-tests-1] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-01-30 15:50:05.428 [TestNG-tests-1] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-01-30 15:50:05.429 [TestNG-tests-1] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-01-30 15:50:05.429 [TestNG-tests-1] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-01-30 15:50:05.430 [TestNG-tests-1] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-01-30 15:50:05.431 [TestNG-tests-1] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-01-30 15:50:05.433 [TestNG-tests-1] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4e4d29b8
+[DEBUG] 2023-01-30 15:50:05.434 [TestNG-tests-1] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-01-30 15:50:05.435 [TestNG-tests-1] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-01-30 15:50:05.436 [TestNG-tests-1] PlatformDependent - maxDirectMemory: 5289017344 bytes (maybe)
+[DEBUG] 2023-01-30 15:50:05.438 [TestNG-tests-1] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Asus\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-01-30 15:50:05.438 [TestNG-tests-1] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-01-30 15:50:05.438 [TestNG-tests-1] PlatformDependent - Platform: Windows
+[DEBUG] 2023-01-30 15:50:05.439 [TestNG-tests-1] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-01-30 15:50:05.440 [TestNG-tests-1] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-01-30 15:50:05.441 [TestNG-tests-1] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-01-30 15:50:05.441 [TestNG-tests-1] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-01-30 15:50:05.450 [TestNG-tests-1] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-01-30 15:50:05.473 [TestNG-tests-1] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-01-30 15:50:05.474 [TestNG-tests-1] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-01-30 15:50:05.488 [TestNG-tests-1] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-01-30 15:50:05.488 [TestNG-tests-1] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-01-30 15:50:05.563 [TestNG-tests-1] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2023-01-30 15:50:05.574 [TestNG-tests-1] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-01-30 15:50:05.574 [TestNG-tests-1] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-01-30 15:50:05.631 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2023-01-30 15:50:05.631 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2023-01-30 15:50:05.631 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-01-30 15:50:05.632 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-01-30 15:50:05.632 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-01-30 15:50:05.632 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-01-30 15:50:05.632 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-01-30 15:50:05.632 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-01-30 15:50:05.632 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-01-30 15:50:05.633 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-01-30 15:50:05.633 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-01-30 15:50:05.633 [TestNG-tests-1] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-01-30 15:50:05.644 [TestNG-tests-1] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-01-30 15:50:05.644 [TestNG-tests-1] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-01-30 15:50:05.645 [TestNG-tests-1] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-01-30 15:50:06.124 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 2792 (auto-detected)
+[DEBUG] 2023-01-30 15:50:06.128 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-01-30 15:50:06.128 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-01-30 15:50:06.620 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-01-30 15:50:06.622 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-01-30 15:50:07.086 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2023-01-30 15:50:07.156 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-01-30 15:50:07.157 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-01-30 15:50:07.157 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@645ae4ef
+[DEBUG] 2023-01-30 15:50:07.185 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-01-30 15:50:07.185 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-01-30 15:50:07.186 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-01-30 15:50:07.186 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-01-30 15:50:08.195 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-01-30 15:50:08.420 [TestNG-tests-1] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe38e4e0504ac4ba2
+[INFO ] 2023-01-30 15:50:11.982 [TestNG-tests-1] LoginPageTest - setup
+[INFO ] 2023-01-30 15:50:13.197 [TestNG-tests-1] LoginPage - navigate to create account
+[INFO ] 2023-01-30 15:50:13.197 [TestNG-tests-1] LoginPageTest - navigate to login page
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 54743
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 52435
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 30, 2023 3:30:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 30, 2023 3:50:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jan 30, 2023 3:30:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 30, 2023 3:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
-Jan 30, 2023 3:30:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 30, 2023 3:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 109.
-Jan 30, 2023 3:30:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Jan 30, 2023 3:50:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest[vishal@sbt.com, Vishal@26](1)" classname="com.luma.testcases.LoginPageTest" time="1.875">
-    <system-out><![CDATA[[DEBUG] 2023-01-30 15:30:57.936 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-[DEBUG] 2023-01-30 15:30:57.939 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-[DEBUG] 2023-01-30 15:30:57.941 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
-[DEBUG] 2023-01-30 15:30:57.969 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-[DEBUG] 2023-01-30 15:30:58.604 [TestNG-tests-1] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-[INFO ] 2023-01-30 15:31:00.581 [TestNG-tests-1] LoginPage - login
-[INFO ] 2023-01-30 15:31:00.581 [TestNG-tests-1] LoginPageTest - login
+  <testcase name="loginTest[vishal@sbt.com, Vishal@26](1)" classname="com.luma.testcases.LoginPageTest" time="2.224">
+    <system-out><![CDATA[[DEBUG] 2023-01-30 15:50:13.452 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-01-30 15:50:13.461 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-01-30 15:50:13.466 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2023-01-30 15:50:13.525 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-01-30 15:50:14.279 [TestNG-tests-1] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[INFO ] 2023-01-30 15:50:16.658 [TestNG-tests-1] LoginPage - login
+[INFO ] 2023-01-30 15:50:16.658 [TestNG-tests-1] LoginPageTest - login
 ]]></system-out>
   </testcase>
-  <testcase name="verifyLoginTest" classname="com.luma.testcases.LoginPageTest" time="0.091">
+  <testcase name="verifyLoginTest" classname="com.luma.testcases.LoginPageTest" time="0.053">
     <system-out><![CDATA[Logged in successfully
-[INFO ] 2023-01-30 15:31:00.679 [TestNG-tests-1] LoginPage - verify login
-[INFO ] 2023-01-30 15:31:00.679 [TestNG-tests-1] LoginPageTest - verifying login
+[INFO ] 2023-01-30 15:50:16.712 [TestNG-tests-1] LoginPage - verify login
+[INFO ] 2023-01-30 15:50:16.712 [TestNG-tests-1] LoginPageTest - verifying login
 ]]></system-out>
   </testcase>
 </testsuite>
