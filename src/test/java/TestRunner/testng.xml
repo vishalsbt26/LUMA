@@ -14,9 +14,9 @@
 		<classes>
 			<class name="com.luma.testcases.LoginPageTest">
 				<methods>
-					<include name="navTest"/>
+<!--					<include name="navTest"/>-->
 					<include name="loginTest"/>
-					<include name="verifyLoginTest"/>
+<!--					<include name="verifyLoginTest"/>-->
 				</methods>
 			</class>
 		</classes>

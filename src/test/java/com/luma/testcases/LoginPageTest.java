@@ -2,8 +2,8 @@ package com.luma.testcases;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -19,7 +19,7 @@ public class LoginPageTest extends TestBase {
 	LoginPage loginPage;
 
 	@Parameters("browser")
-	@BeforeTest
+	@BeforeMethod
 	public void setUp(@Optional("chrome") String browser) {
 		initialization(browser);
 		loginPage = new LoginPage();
@@ -27,12 +27,12 @@ public class LoginPageTest extends TestBase {
 		logger.info("setup");
 	}
 
-	@Test
-	public void navTest() {
-		loginPage.navToLogin();
-
-		logger.info("navigate to login page");
-	}
+//	@Test
+//	public void navTest() {
+//		loginPage.navToLogin();
+//
+//		logger.info("navigate to login page");
+//	}
 
 	@DataProvider
 	public Object[][] excelData() {
@@ -42,19 +42,21 @@ public class LoginPageTest extends TestBase {
 	
 	@Test(dataProvider = "excelData")
 	public void loginTest(String user, String pass) throws InterruptedException {
+		loginPage.navToLogin();
 		loginPage.loginCred(user, pass);
+		loginPage.verifyLogin();
 
 		logger.info("login");
 	}
 
-	@Test
-	public void verifyLoginTest() {
-		loginPage.verifyLogin();
+//	@Test
+//	public void verifyLoginTest() {
+//		loginPage.verifyLogin();
+//
+//		logger.info("verifying login");
+//	}
 
-		logger.info("verifying login");
-	}
-
-	@AfterTest
+	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 
