@@ -8,6 +8,17 @@
 		<listener class-name="com.luma.testutil.ProjListener"/>
 	</listeners>
 	
+	<test name="RegisterTest" enabled="false">
+		<classes>
+			<class name="com.luma.testcases.RegisterPageTest">
+				<methods>
+					<include name="navTest"/>
+					<include name="fillDetailsTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
 	<test name="LoginTest" enabled="true">
 		<parameter name="browser" value="chrome"/>
 		<classes>
@@ -21,4 +32,15 @@
 		</classes>
 	</test>
 	
+	<test name="ProductTest" enabled="false">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.luma.testcases.HomePageTest">
+				<methods>
+<!--					<include name="homePageTest"/>-->
+					<include name="listPageTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>
